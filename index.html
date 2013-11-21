@@ -9,16 +9,17 @@
 	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
 
 	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,900,300italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 <nav>
 	<ul>
 		<li><a href="#logo">Logo</a></li>
-		<li><a href="#usage">Usage</a></li>
+		<li><a href="#usage">Logo Usage</a></li>
 		<li><a href="#colors">Colors</a></li>
-		<li><a href="#headings">Headings</a></li>
-		<li><a href="#paragraph">Text Blocks</a></li>
+		<li><a href="#typography">Typography</a></li>
+		<li><a href="#grid">Grid</a></li>
 		<li><a href="#list_types">Lists</a></li>
 		<li><a href="#characters">Characters</a></li>
 		<li><a href="#form_elements">Form Elements</a></li>
@@ -34,11 +35,26 @@
 			The purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.
 		</p>
 </section>
-<hr />
+<hr>
 
+<section id="logos">
+	<h1>Logos</h1>
+</section>
+<hr>
+
+<section id="usage">
+	<h1>Logo Usage</h1>
+		<h2>Direction</h2>
+		<h2>Spacing</h2>
+		<h2>Sizing</h2>
+		<h2>Spacing</h2>
+		<h2>Colors</h2>
+		<h2>Pattern</h2>
+</section>
+<hr>
  
-<section class="headings">
-	<h1 id="colors">Colors</h1>
+<section id="colors">
+	<h1 >Colors</h1>
 	<ul class="color-list">
 		<li class="color-box brick-red"></li>
 		<li class="color-box strawberry"></li>
@@ -55,29 +71,56 @@
 	</ul>
 </section>
  
-<section class="headings">
-<h1 id="headings">Headings</h1>
-	<h1>Heading 1</h1>
-	<h2>Heading 2</h2>
+<section id="typography">
+	<h1>Print Layout</h1>
+	<section class="explanation">
+		<span class="item-name">
+		Title: </span><br>
+		Font Family: Grandma Bold <br>
+		Font-size: 36px <br>
+		Color: Stawberry, Black <br>
+		<hr>
+		<span class="item-name">
+		Subtitle: </span><br>
+		Font Family: Lato Black <br>
+		Font-size: 18px <br>
+		Color: Tangerine, Black <br>
+	</section>
+
+	<section class="print example">
+		<h1 class="print-title">This is a Headline</h1>
+		<h2 class="print-subtitle">Subtitle Would Go Here</h2>
+		<p class="print-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, hic, vel pariatur officia quas reiciendis ex quaerat neque praesentium doloribus cupiditate saepe suscipit amet repellendus quo aliquam itaque officiis dolorum.</p></p>Nulla sequi tenetur iure quod modi. Cumque, expedita dolorum quia rem eveniet fugit ad. Quisquam, totam, architecto, quaerat quo laudantium hic consequatur laborum dolorem repellat enim numquam accusantium aliquam dignissimos?</p>
+		<small class="print-caption">This is a very interesting caption that would go on print pieces to describe images and other various assets.</small>
+	</section>
+
+	<h1>Web Layout</h1>
+<h2>Headings</h2>
+	<h1>Title</h1>
+	<p class="type-desc">font family: font size:</p>
+	<h2>Subtitle</h2>
+	<p class="type-desc">font family: font size:</p>
 	<h3>Heading 3</h3>
+	<p class="type-desc">font family: font size:</p>
 	<h4>Heading 4</h4>
+	<p class="type-desc">font family: font size:</p>
 	<h5>Heading 5</h5>
+	<p class="type-desc">font family: font size:</p>
 	<h6>Heading 6</h6>
- 
-<small><a href="#container">[top]</a></small>
-</section>
-<hr />
- 
- 
-<h1 id="paragraph">Paragraph</h1>
- 
-<img style="width:250px;height:125px;float:right" src="images/css_gods_language.png" alt="CSS | God's Language" />
+	<p class="type-desc">font family: font size:</p>
+	<p>Paragaph Text</p>
+	<p class="type-desc">font family: font size:</p>
+	<small>Caption Text</small>
+	<p class="type-desc">font family: font size:</p>
+<hr>
+
+<h2>Paragraphs</h2>
 <p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
  
 <p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
  
-<small><a href="#container">[top]</a></small>
-<hr />
+</section>
+<hr>
  
 <h1 id="list_types">List Types</h1>
  
@@ -101,8 +144,7 @@
 <li>List Item 3</li>
 </ul>
  
-<small><a href="#container">[top]</a></small>
-<hr />
+<hr>
  
 <h1 id="form_elements">Fieldsets, Legends, and Form Elements</h1>
  
@@ -166,8 +208,7 @@
  
 </fieldset>
  
-<small><a href="#container">[top]</a></small>
-<hr />
+<hr>
  
 <h1 id="tables">Tables</h1>
  
@@ -187,8 +228,7 @@
  
 </table>
  
-<small><a href="#container">[top]</a></small>
-<hr />
+<hr>
  
 </div>
 </body>

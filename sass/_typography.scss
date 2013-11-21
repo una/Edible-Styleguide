@@ -1,14 +1,67 @@
 @mixin fontface($font-family, $file-path, $weight: normal, $style: normal ) {
-  @font-face {
-    font-family: $font-family;
-    src: url('#{$file-path}.eot');
-    src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
-           url('#{$file-path}.woff') format('woff'),
-           url('#{$file-path}.ttf') format('truetype'),
-           url('#{$file-path}.svg##{$font-family}') format('svg');
-    font-weight: $weight;
-    font-style: $style;
-  };
+	@font-face {
+		font-family: $font-family;
+		src: url('#{$file-path}.eot');
+		src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+					 url('#{$file-path}.woff') format('woff'),
+					 url('#{$file-path}.ttf') format('truetype'),
+					 url('#{$file-path}.svg##{$font-family}') format('svg');
+		font-weight: $weight;
+		font-style: $style;
+	};
 };
 
-@include fontface("icomoon", "../fonts/icomoon", normal, normal);
+@include fontface("Grandma Bold", "../fonts/grandma_bold", normal, normal);
+
+%grandma {
+	font-family: 'Grandma Bold';
+}
+
+%lato {
+	font-family: 'Lato';
+}
+
+%lato-light {
+	@extend %lato;
+	font-weight: 300;
+}
+
+%lato-italic {
+	@extend %lato-light;
+	font-style: italic;
+}
+
+%lato-bold {
+	@extend %lato;
+	font-weight: 900;
+}
+
+// Print Styles
+.print-title {
+	@extend %grandma;
+	font-size: 36px;
+	color: $strawberry;
+}
+
+.print-subtitle {
+	@extend %lato-bold;
+	font-size: 18px;
+	color: $tangerine;
+}
+
+.print-paragraph {
+	@extend %lato-light;
+	font-size: 10px;
+}
+
+.print-caption {
+	@extend %lato-italic;
+	color: $grass-green;
+}
+
+// Web Styles
+
+
+
+
+
