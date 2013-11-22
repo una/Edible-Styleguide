@@ -1,12 +1,19 @@
 @import "compass/utilities/color/contrast";
 
 #container {
-	margin: 0 auto;
-	width: 980px;
+	margin-left: $nav-width; 
+	max-width: 980px;
+	padding: $gutter-width;
 }
 
 .explanation {
-	padding-right: 5%;
+	margin-right: $gutter-width--small;
 	float: left;
 	width: 20%; 
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	background: $strawberry;
 }

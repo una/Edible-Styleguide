@@ -60,6 +60,10 @@
 }
 
 // Web Styles
+h1 {
+	@extend %grandma;
+	color: $strawberry;
+}
 
 
 

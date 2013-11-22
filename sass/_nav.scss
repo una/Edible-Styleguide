@@ -1,6 +1,23 @@
+$nav-width: 250px;
+
 nav {
 	background-color: $lime;
 	height: 100%;
 	position: fixed;
-	width: 20%;
+	width: $nav-width;
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		@include transition-duration;
+		border-bottom: 1px dashed white;
+		padding: 1em;
+		color: white;
+		display: block;
+		text-decoration: none;
+		&:hover {
+			background-color: $grass-green;
+		}
+	}
 }
