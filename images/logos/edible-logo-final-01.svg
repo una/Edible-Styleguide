@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="380.915px" height="270px" viewBox="0 0 380.915 270" enable-background="new 0 0 380.915 270" xml:space="preserve">
+<g id="Layer_2">
+</g>
+<g id="Layer_1">
+	<rect x="20" y="19.5" fill="none" width="356.5" height="32"/>
+	<text transform="matrix(1 0 0 1 20 45.4912)" fill="#BE1E2D" font-family="'Grandma-Bold'" font-size="36">Header &amp; Special Text</text>
+	<rect x="19.5" y="71" fill="none" width="292" height="17"/>
+	<text transform="matrix(1 0 0 1 19.5 84.4819)" fill="#F26522" font-family="'Lato-Black'" font-size="18">Subtitle Goes Here, Wow.</text>
+	<rect x="21" y="104" fill="none" width="303" height="110"/>
+	<text transform="matrix(1 0 0 1 21 111.2847)"><tspan x="0" y="0" font-family="'Lato-Light'" font-size="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</tspan><tspan x="0" y="12" font-family="'Lato-Light'" font-size="10">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </tspan><tspan x="0" y="24" font-family="'Lato-Light'" font-size="10">veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex emm </tspan><tspan x="0" y="36" font-family="'Lato-Light'" font-size="10">commodo consequat. Duis aute irure dolor in reprehenderit in volate </tspan><tspan x="0" y="48" font-family="'Lato-Light'" font-size="10">velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </tspan><tspan x="0" y="60" font-family="'Lato-Light'" font-size="10">cupidatat non proident, sunt in culpa qui officia deserunt mollit anim ids </tspan><tspan x="0" y="72" font-family="'Lato-Light'" font-size="10">est laborum.</tspan></text>
+	<rect x="21" y="203" fill="none" width="157" height="31"/>
+	<text transform="matrix(1 0 0 1 21 208.8281)"><tspan x="0" y="0" fill="#4B8A3F" font-family="'Lato-LightItalic'" font-size="8">Caption lorem ipsum dolor sit amet, conetur </tspan><tspan x="0" y="9.6" fill="#4B8A3F" font-family="'Lato-LightItalic'" font-size="8">adipisicing elit, sed do eiusmod tempor incididunt </tspan><tspan x="0" y="19.2" fill="#4B8A3F" font-family="'Lato-LightItalic'" font-size="8">ut labore et dolore magna aliqua.</tspan></text>
+</g>
+</svg>
