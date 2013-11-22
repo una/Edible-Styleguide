@@ -13,7 +13,7 @@
 	
 	&.logo--full-color {
 		opacity: 0;
-		@include animation(fadein 3s 4.7s);
+		@include animation(fadein 3s 5s);
 		-webkit-animation-fill-mode: forwards;
 		animation-fill-mode: forwards;
 	}
