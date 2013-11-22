@@ -1,0 +1,10 @@
+%logo {
+	display: block;
+	width: 467px;
+	height: 454px; 
+}
+
+.logo--full-color {
+	@extend %logo;
+	background-image: image-url('logos/edible-logo-fullcolor.svg');
+}
