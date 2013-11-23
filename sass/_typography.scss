@@ -36,17 +36,23 @@
 	font-weight: 900;
 }
 
+// Web Styles
+h1 {
+	@extend %grandma;
+	color: $clay;
+}
+
 // Print Styles
 .print-title {
-	@extend %grandma;
+	border-bottom: 1px dashed;
 	font-size: 36px;
-	color: $strawberry;
 }
 
 .print-subtitle {
 	@extend %lato-bold;
+	color: $strawberry;
 	font-size: 18px;
-	color: $tangerine;
+	text-transform: uppercase;
 }
 
 .print-paragraph {
@@ -57,12 +63,6 @@
 .print-caption {
 	@extend %lato-italic;
 	color: $grass-green;
-}
-
-// Web Styles
-h1 {
-	@extend %grandma;
-	color: $strawberry;
 }
 
 

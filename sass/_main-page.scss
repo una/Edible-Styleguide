@@ -7,9 +7,11 @@
 }
 
 .explanation {
-	margin-right: $gutter-width--small;
+	background: white;
+	display: block;
 	float: left;
-	width: 20%; 
+	padding-right: 2em;
+	width: 30%;
 }
 
 hr {
