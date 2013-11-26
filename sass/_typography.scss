@@ -65,9 +65,9 @@ p {
 
 .print-subtitle {
 	@extend %lato-bold;
+	@extend uppercase;
 	color: $strawberry;
 	font-size: 18px;
-	text-transform: uppercase;
 }
 
 .print-copy {

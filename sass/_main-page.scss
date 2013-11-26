@@ -7,14 +7,14 @@
 }
 
 .explanation {
+	@extend %left;
 	background: white;
 	display: block;
-	float: left;
 	font-size: 0.75rem;
 	padding-right: 4em;
 	width: 30%;
 	.item-name {
-	text-transform: uppercase;
+	@extend %uppercase;
 	font-weight: 900;
 	}
 	hr {
@@ -25,12 +25,7 @@
 }
 
 hr {
-	border: 0;
-	border-bottom: 1px dashed #ccc;
 	background: $strawberry;
-}
-
-block {
-	overflow: hidden;
-	display: block;
+	border-bottom: 1px dashed #ccc;
+	border: 0;
 }

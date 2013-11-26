@@ -1,12 +1,26 @@
 %fit-bg {
-	background-size: 100%;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
+.left,
 %left {
 	float: left;
 }
 
+.right,
 %right {
 	float: right;
+}
+
+.uppercase,
+%uppercase {
+	text-transform: uppercase;
+}
+
+.block,
+%block,
+block {
+	display: block;
+	overflow: hidden;
 }

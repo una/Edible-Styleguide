@@ -1,11 +1,11 @@
 /*
-Syntax error: ".logo_measure--detail" failed to @extend "%fit-bg".
-              The selector "%fit-bg" was not found.
-              Use "@extend %fit-bg !optional" if the extend should be able to fail.
-        on line 21 of /Users/Una/Sites/Edible-Styleguide/sass/sections/_logos.scss
+Syntax error: ".print-subtitle" failed to @extend "uppercase".
+              The selector "uppercase" was not found.
+              Use "@extend uppercase !optional" if the extend should be able to fail.
+        on line 68 of /Users/Una/Sites/Edible-Styleguide/sass/_typography.scss
 
 Backtrace:
-/Users/Una/Sites/Edible-Styleguide/sass/sections/_logos.scss:21
+/Users/Una/Sites/Edible-Styleguide/sass/_typography.scss:68
 /Users/Una/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.3.0.rc.1/lib/sass/tree/visitors/extend.rb:61:in `block in check_extends_fired!'
 /Users/Una/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.3.0.rc.1/lib/sass/util/subset_map.rb:106:in `block in each_value'
 /Users/Una/.rvm/gems/ruby-2.0.0-p195/gems/sass-3.3.0.rc.1/lib/sass/util/subset_map.rb:106:in `each'
@@ -46,4 +46,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: \".logo_measure--detail\" failed to @extend \"%fit-bg\".\A               The selector \"%fit-bg\" was not found.\A               Use \"@extend %fit-bg !optional\" if the extend should be able to fail.\A         on line 21 of /Users/Una/Sites/Edible-Styleguide/sass/sections/_logos.scss"; }
+  content: "Syntax error: \".print-subtitle\" failed to @extend \"uppercase\".\A               The selector \"uppercase\" was not found.\A               Use \"@extend uppercase !optional\" if the extend should be able to fail.\A         on line 68 of /Users/Una/Sites/Edible-Styleguide/sass/_typography.scss"; }

@@ -1,14 +1,13 @@
 %logo {
 	display: block;
-	width: 467px;
 	height: 454px; 
+	width: 467px;
 }
 
 %logo_measure{
 	display: block;
-	width: 700px;
-	height: 760px;
 	margin: 0 auto;
+	max-width: 700px;
 }
 
 .logo--full-color {
@@ -20,4 +19,5 @@
 	@extend %logo_measure;
 	@extend %fit-bg;
 	background-image: image-url('logos/logo_measure--detail.svg');
+	height: 760px;
 }
