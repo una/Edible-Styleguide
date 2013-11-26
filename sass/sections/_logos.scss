@@ -4,7 +4,20 @@
 	height: 454px; 
 }
 
+%logo_measure{
+	display: block;
+	width: 700px;
+	height: 760px;
+	margin: 0 auto;
+}
+
 .logo--full-color {
 	@extend %logo;
 	background-image: image-url('logos/edible-logo-fullcolor.svg');
+}
+
+.logo_measure--detail {
+	@extend %logo_measure;
+	@extend %fit-bg;
+	background-image: image-url('logos/logo_measure--detail.svg');
 }

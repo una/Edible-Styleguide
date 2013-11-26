@@ -26,10 +26,11 @@
 		<li><a href="#usage">Logo Usage</a></li>
 		<li><a href="#colors">Colors</a></li>
 		<li><a href="#typography">Typography</a></li>
+		<li><a href="#text-layouts">Text Layouts</a></li>
 		<li><a href="#grid">Grid</a></li>
-		<li><a href="#list_types">Lists</a></li>
+		<li><a href="#list-types">Lists</a></li>
 		<li><a href="#characters">Characters</a></li>
-		<li><a href="#form_elements">Form Elements</a></li>
+		<li><a href="#form-elements">Form Elements</a></li>
 		<li><a href="#tables">Tables</a></li>
 		<li><a href="#misc">Miscellanous</a></li>
 	</ul>
@@ -57,6 +58,18 @@
 
 <section id="usage">
 	<h1>Logo Usage</h1>
+	<figure class="logo_measure--detail"></figure>
+		<h2>Direction</h2>
+		<h2>Spacing</h2>
+		<h2>Sizing</h2>
+		<h2>Spacing</h2>
+		<h2>Colors</h2>
+		<h2>Pattern</h2>
+</section>
+<hr>
+
+<section id="typography">
+	<h1>Typography</h1>
 		<h2>Direction</h2>
 		<h2>Spacing</h2>
 		<h2>Sizing</h2>
@@ -84,53 +97,128 @@
 	</ul>
 </section>
  
-<section id="typography">
-	<h1>Print Layout</h1>
-	<section class="explanation">
-		<span class="item-name">
-		Title: </span><br>
-		Font Family: Grandma Bold <br>
-		Font-size: 36px <br>
-		Color: Stawberry, Black <br>
-		<hr>
-		<span class="item-name">
-		Subtitle: </span><br>
-		Font Family: Lato Black <br>
-		Font-size: 18px <br>
-		Color: Tangerine, Black <br>
-	</section>
+<section id="text-layouts">
+	<block class="block-typography--print">
+		<h1>Print Layout</h1>
+		<section class="explanation">
+			<span class="item-name">
+			Title: </span><br>
+			Font Family: Grandma<br>
+			Font Weight: Bold<br>
+			Font Size: 36px <br>
+			Color: Clay, Black <br>
+			<hr>
+			<span class="item-name">
+			Subtitle: </span><br>
+			Font Family: Lato <br>
+			Font Weight: Black</br>
+			Font-size: 18px <br>
+			Color: Strawberry, Black <br>
+			<hr>
+			<span class="item-name">
+			Copy: </span><br>
+			Font Family: Lato <br>
+			Font Weight: Light<br>
+			Font-size: 10px <br>
+			Color: Black <br>
+			<hr>
+			<span class="item-name">
+			Caption: </span><br>
+			Font Family: Lato <br>
+			Font Weight: Light</br>
+			Font Style: Italic<br>
+			Font-size: 8px <br>
+			Color: Grass Green <br>
+			<mark>Note: Do not span captions longer than 50 characters wide.</mark>
+		</section>
 
-	<section class="print example">
-		<h1 class="print-title">This is a Headline</h1>
-		<h2 class="print-subtitle">Subtitle Would Go Here</h2>
-		<p class="print-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, hic, vel pariatur officia quas reiciendis ex quaerat neque praesentium doloribus cupiditate saepe suscipit amet repellendus quo aliquam itaque officiis dolorum.</p></p>Nulla sequi tenetur iure quod modi. Cumque, expedita dolorum quia rem eveniet fugit ad. Quisquam, totam, architecto, quaerat quo laudantium hic consequatur laborum dolorem repellat enim numquam accusantium aliquam dignissimos?</p>
-		<small class="print-caption">This is a very interesting caption that would go on print pieces to describe images and other various assets.</small>
-	</section>
-
+		<section class="example">
+			<h1 class="print-title">This is a Headline</h1>
+			<h2 class="print-subtitle">Subtitle Would Go Here</h2>
+			<p class="print-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, hic, vel pariatur officia quas reiciendis ex quaerat neque praesentium doloribus cupiditate saepe suscipit amet repellendus quo aliquam itaque officiis dolorum.</p>
+			<p class="print-copy">Nulla sequi tenetur iure quod modi. Cumque, expedita dolorum quia rem eveniet fugit ad. Quisquam, totam, architecto, quaerat quo laudantium hic consequatur laborum dolorem repellat enim numquam accusantium aliquam dignissimos?</p>
+			<small class="print-caption">This is a very interesting caption that would go on print pieces to describe images and other various assets.</small>
+		</section>
+	</block>
+	<block class="block-typography--web">
 	<h1>Web Layout</h1>
-<h2>Headings</h2>
-	<h1>Title</h1>
-	<p class="type-desc">font family: font size:</p>
-	<h2>Subtitle</h2>
-	<p class="type-desc">font family: font size:</p>
-	<h3>Heading 3</h3>
-	<p class="type-desc">font family: font size:</p>
-	<h4>Heading 4</h4>
-	<p class="type-desc">font family: font size:</p>
-	<h5>Heading 5</h5>
-	<p class="type-desc">font family: font size:</p>
-	<h6>Heading 6</h6>
-	<p class="type-desc">font family: font size:</p>
-	<p>Paragaph Text</p>
-	<p class="type-desc">font family: font size:</p>
-	<small>Caption Text</small>
-	<p class="type-desc">font family: font size:</p>
-<hr>
+	
+		<section class="explanation">
+			<span class="item-name">
+			h1 </span><br>
+			<code>
+			{color: $clay;<br>
+			font-family: 'Grandma';<br>
+			font-weight: 900;<br>
+			font-size: 3em;<br>
+			line-height: 1.5em;}
+			</code>
+			<hr>
+			<span class="item-name">
+			h2 </span><br>
+			<code>
+			{color: $strawberry;<br>
+			font-family: 'Lato';<br>
+			font-weight: 900;<br>
+			font-size: 1.6em;<br>
+			text-transform: uppercase;}
+			</code>
+			<hr>
+			<span class="item-name">
+			p </span><br>
+			<code>
+			{color: $clay;<br>
+			font-family: 'Lato';<br>
+			font-weight: 200;<br>
+			font-size: 1em;}
+			</code>
+			<hr>
+			<span class="item-name">
+			mark </span><br>
+			<code>
+			{color: $strawberry;}
+			</code>
+			<hr>
+			<span class="item-name">
+			p </span><br>
+			<code>
+			{color: $clay;<br>
+			font-family: 'Lato';<br>
+			font-weight: 200;<br>
+			font-size: 1em;}
+			</code>
+			<hr>
+			<span class="item-name">
+			p </span><br>
+			<code>
+			{color: $clay;<br>
+			font-family: 'Lato';<br>
+			font-weight: 200;<br>
+			font-size: 1em;}
+			</code>
+			<hr>
+			<span class="item-name">
+			p </span><br>
+			<code>
+			{color: $clay;<br>
+			font-family: 'Lato';<br>
+			font-weight: 200;<br>
+			font-size: 1em;}
+			</code>
+			<hr>
 
-<h2>Paragraphs</h2>
-<p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
- 
-<p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+		</section>
+		<section class="example">
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<p>An example of paragraph text with inline links and text marks. Lorem ipsum dolor sit amet, <a href="#">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. <mark> Marked text </mark> Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, <strong> strong text </strong> eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+		 
+		<p>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+		<h4>Heading 4</h4>
+		<a href="#">Inline Text Link</a>
+		<p>Paragaph Text</p>
+		<small>Caption Text</small>
  
 </section>
 <hr>

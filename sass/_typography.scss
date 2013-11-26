@@ -36,10 +36,25 @@
 	font-weight: 900;
 }
 
+mark {
+	color: $strawberry;
+	background: none;
+}
+
 // Web Styles
 h1 {
 	@extend %grandma;
 	color: $clay;
+}
+
+h2 {
+	@extend %lato-bold;
+	color: $strawberry;
+	text-transform: uppercase;
+}
+
+p {
+	@extend %lato-light;
 }
 
 // Print Styles
@@ -55,14 +70,16 @@ h1 {
 	text-transform: uppercase;
 }
 
-.print-paragraph {
+.print-copy {
 	@extend %lato-light;
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .print-caption {
 	@extend %lato-italic;
 	color: $grass-green;
+	display: inline-block;
+	max-width: 230px;
 }
 
 

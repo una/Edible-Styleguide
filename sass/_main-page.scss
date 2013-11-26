@@ -10,12 +10,27 @@
 	background: white;
 	display: block;
 	float: left;
-	padding-right: 2em;
+	font-size: 0.75rem;
+	padding-right: 4em;
 	width: 30%;
+	.item-name {
+	text-transform: uppercase;
+	font-weight: 900;
+	}
+	hr {
+		border: 0;
+		border-bottom: 1px solid #ccc;
+		background: grey;
+	}
 }
 
 hr {
 	border: 0;
 	border-bottom: 1px dashed #ccc;
 	background: $strawberry;
+}
+
+block {
+	overflow: hidden;
+	display: block;
 }
