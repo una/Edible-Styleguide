@@ -1,13 +1,19 @@
 %logo {
-	display: block;
 	height: 454px; 
 	width: 467px;
 }
 
 %logo_measure{
-	display: block;
+	@extend %block;
 	margin: 0 auto;
 	max-width: 700px;
+	padding-bottom: 75%;
+}
+
+%logo_nono {
+	@extend %block;
+	@extend %logo;
+	@extend %fit-bg;
 }
 
 .logo--full-color {
@@ -19,5 +25,30 @@
 	@extend %logo_measure;
 	@extend %fit-bg;
 	background-image: image-url('logos/logo_measure--detail.svg');
-	height: 760px;
+}
+
+%logo_nono--2up {
+	@extend %logo_nono;
+	width: 225px;
+	height: 250px;
+}
+
+.logo_nono--color1 {
+	@extend %logo_nono--2up;
+	background-image: image-url('logos/misuse/nono-1.svg');
+}
+
+.logo_nono--color2 {
+	@extend %logo_nono--2up;
+	background-image: image-url('logos/misuse/nono-2.svg');
+}
+
+.logo_nono--position1 {
+	@extend %logo_nono--2up;
+	background-image: image-url('logos/misuse/nono-3.svg');
+}
+
+.logo_nono--position2 {
+	@extend %logo_nono--2up;
+	background-image: image-url('logos/misuse/nono-4.svg');
 }

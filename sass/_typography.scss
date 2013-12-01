@@ -19,6 +19,7 @@
 
 %lato {
 	font-family: 'Lato';
+	font-weight: 400;
 }
 
 %lato-light {
@@ -54,7 +55,7 @@ h2 {
 }
 
 p {
-	@extend %lato-light;
+	@extend %lato;
 }
 
 // Print Styles
@@ -65,7 +66,7 @@ p {
 
 .print-subtitle {
 	@extend %lato-bold;
-	@extend uppercase;
+	@extend %uppercase;
 	color: $strawberry;
 	font-size: 18px;
 }

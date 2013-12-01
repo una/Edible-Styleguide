@@ -12,7 +12,7 @@
 	display: block;
 	font-size: 0.75rem;
 	padding-right: 4em;
-	width: 30%;
+	width: $explanation-width;
 	.item-name {
 	@extend %uppercase;
 	font-weight: 900;

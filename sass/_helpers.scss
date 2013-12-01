@@ -24,3 +24,7 @@ block {
 	display: block;
 	overflow: hidden;
 }
+
+%push-side {
+	margin-left: $explanation-width;
+}

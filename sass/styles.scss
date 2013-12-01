@@ -2,8 +2,8 @@
 @import "compass/css3";
 @import "breakpoint";
 @import "normalize";
-@import "helpers";
 @import "variables";
+@import "helpers";
 @import "typography";
 @import "nav";
 @import "main-page";
@@ -12,5 +12,6 @@
 @import "sections/intro";
 @import "sections/colors";
 @import "sections/logos";
+@import "sections/type";
 
 @import "shame";
