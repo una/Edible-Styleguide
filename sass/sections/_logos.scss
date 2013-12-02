@@ -27,6 +27,27 @@
 	background-image: image-url('logos/logo_measure--detail.svg');
 }
 
+.logo_measure--redbg {
+	@extend %logo_measure;
+	@extend %fit-bg;
+	background-image: image-url('logos/logo_measure--redbg.svg');
+	width: 55%;
+}
+
+.logo_measure--whitebg {
+	@extend %logo_measure;
+	@extend %fit-bg;
+	background-image: image-url('logos/logo_measure--whitebg.svg');
+	width: 55%;
+}
+
+.logo_measure--distance {
+	@extend %logo_measure;
+	@extend %fit-bg;
+	background-image: image-url('logos/logo_measure--distance.svg');
+	width: 45%;
+}
+
 %logo_nono--2up {
 	@extend %logo_nono;
 	width: 225px;

@@ -1,0 +1,35 @@
+%type-section {
+	@extend block; 
+}
+
+.type-section--grandma {
+	@extend %type-section;
+	@extend %grandma;
+}
+
+.type-section--lato {
+	@extend %type-section;
+	@extend %lato;
+}
+
+.type-section--lato-light {
+	@extend %type-section;
+	@extend %lato-light;
+}
+
+.type-section--lato-bold {
+	@extend %type-section;
+	@extend %lato-bold;
+}
+
+.lrg {
+	font-size: 100px;
+	width: 1.7em;
+	height: 1.2em;
+	float: left;
+	padding: 0.3em 0;
+}
+
+.alpha--upper {
+	@extend %uppercase;
+}
