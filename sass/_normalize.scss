@@ -33,7 +33,7 @@ $legacy-support-for-ie7: false; // Override default set in Compass' Support part
 $base-font-family: 'Lato', sans-serif !default;
 
 // The amount lists and blockquotes are indented.
-$indent-amount: 40px !default;
+$indent-amount: 0 !default;
 
 // After the default variables are set, import the required Compass partials.
 @import "compass/support";

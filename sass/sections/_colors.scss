@@ -9,5 +9,12 @@
 @each $color, $bgcolor in $color-list {
 	.color-box.#{$color} {
 		@include contrasted($bgcolor);
+		@if $color == white {
+			outline: 1px solid $strawberry;
+		}
 	}
+}
+
+#colors {
+	@extend %block;
 }
