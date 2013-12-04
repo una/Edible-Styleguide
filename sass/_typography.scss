@@ -38,19 +38,20 @@
 }
 
 mark {
-	color: $strawberry;
+	color: $tangerine;
 	background: none;
 }
 
 // Web Styles
 h1 {
 	@extend %grandma;
-	color: $clay;
+	color: $tangerine;
+	
 }
 
 h2 {
 	@extend %lato-bold;
-	color: $strawberry;
+	color: $clay;
 	text-transform: uppercase;
 }
 
@@ -67,7 +68,7 @@ p {
 .print-subtitle {
 	@extend %lato-bold;
 	@extend %uppercase;
-	color: $strawberry;
+	color: $clay;
 	font-size: 18px;
 }
 

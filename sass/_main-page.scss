@@ -2,7 +2,7 @@
 
 #container {
 	margin-left: $nav-width; 
-	max-width: 980px;
+	max-width: 1080px;
 	padding: $gutter-width;
 }
 
@@ -12,7 +12,7 @@
 	background: white;
 	display: block;
 	font-size: 0.75rem;
-	padding-right: 4em;
+	padding-right: $explanation-padding;
 	width: $explanation-width;
 	.item-name {
 	@extend %uppercase;

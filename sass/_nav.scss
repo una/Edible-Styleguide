@@ -1,7 +1,6 @@
-$nav-width: 250px;
 
 nav {
-	background-color: $lime;
+	background-color: $tangerine;
 	height: 100%;
 	position: fixed;
 	width: $nav-width;
@@ -17,7 +16,7 @@ nav {
 		display: block;
 		text-decoration: none;
 		&:hover {
-			background-color: $grass-green;
+			background-color: $deep-orange;
 		}
 	}
 }

@@ -27,11 +27,13 @@ $color-list: (
 );
 
 //Widths
-$explanation-width: 30%;
+$nav-width: 200px;
+$explanation-width: 33%;
+$explanation-padding: 5em;
 
 // Utilities
 $contrasted-lightness-threshold: 50%;
 
 //Grid 
-$gutter-width: 50px;
-$gutter-width--small: 2em;
+$gutter-width: 80px;
+$gutter-width--small: 3em;
