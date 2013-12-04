@@ -6,6 +6,30 @@
 	padding: $gutter-width;
 }
 
+%wrong,
+.wrong {
+	&:after {
+		content: "✘";
+		color: $strawberry;
+		font-size: 2.5em;
+		margin-left: 81%;
+		display: block;
+		padding: 0.2em;
+	}
+}
+
+%right,
+.right {
+	&:after {
+		content: "✔";
+		color: $lime;
+		font-size: 2.5em;
+		margin-left: 81%;
+		display: block;
+		padding: 0.2em;
+	}
+}
+
 .explanation {
 	@extend %left;
 	@extend %lato;
