@@ -1,4 +1,3 @@
-
 nav {
 	background-color: $tangerine;
 	height: 100%;
@@ -7,6 +6,9 @@ nav {
 	ul {
 		margin: 0;
 		padding: 0;
+	}
+	.sub-nav {
+		text-indent: 3em;
 	}
 	a {
 		@include transition-duration;

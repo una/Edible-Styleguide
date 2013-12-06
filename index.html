@@ -9,7 +9,7 @@
 	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
 
 	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,900,300italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,900,300italic|Neucha' rel='stylesheet' type='text/css'>
 
 	<script src="js/vendor/jquery-1.9.1.min.js"></script>
 	<script src="js/vendor/raphael-min.js"></script>
@@ -22,15 +22,26 @@
 <nav>
 	<ul>
 		<li><a href="#brief">Brief</a></li>
-		<li><a href="#logo">Logos</a></li>
-		<li><a href="#usage">Logo Usage</a></li>
+		<li><a href="#logo">Logos</a>
+			<ul class="sub-nav">
+				<li><a href="#logo--sizing">Sizing</a></li>
+				<li><a href="#logo--spacing">Spacing</a></li>
+				<li><a href="#logo--usage">Usage</a></li>
+			</ul>
+		</li>	
 		<li><a href="#colors">Colors</a></li>
-		<li><a href="#typography">Typography</a></li>
-		<li><a href="#text-layouts">Text Layouts</a></li>
-		<li><a href="#grid">Grid</a></li>
-		<li><a href="#list-types">Lists</a></li>
-		<li><a href="#characters">Characters</a></li>
-		<li><a href="#patterns">Patterns</a></li>
+		<li><a href="#typography">Typography</a>
+			<ul class="sub-nav">
+				<li><a href="#type--typefaces">Typefaces</a></li>
+				<li><a href="#type--layouts">Layouts</a></li>
+			</ul>
+		</li>
+		<li><a href="#typography">Additional Assets</a>
+			<ul class="sub-nav">
+				<li><a href="#assets--pattern">Pattern</a></li>
+				<li><a href="#assets--characters">Characters</a></li>
+			</ul>
+		</li>
 	</ul>
 </nav>
 
@@ -104,8 +115,21 @@
 		<figure class="logo_nono--color1"></figure>
 		<figure class="logo_nono--color2"></figure>
 			
-		
-		<h2>Spacing</h2>
+		<h2>Background</h2>
+		<div class="explanation">
+			<span class="item-name">
+			Edges: </span><br>
+			<p>When using a colored background, always have sharp edges without any rounded corners.</p>
+			<hr>
+		</div>
+		<figure class="logo_nono--borderradius"></figure>
+		<div class="explanation">
+			<span class="item-name">
+			Shape: </span><br>
+			<p>Make sure the shape is a perfect square with the logo centered. Do not squash this shape or change its proportions.</p>
+			<hr>
+		</div>
+		<figure class="logo_nono--short"></figure>
 		
 		<h2>Pattern</h2>
 </section>
@@ -156,6 +180,18 @@
 					<span class="item-name">
 					Lato Black:</span><br>
 					Subtitles and Subheadlines use Lato Black uppercase. Also used for emphasis and sales deals. Use same minimum size as copy. Must be at least 1.5x the size of copy as Subtitles.
+					<hr>
+				</section>
+				<div class="lrg">Aa</div>
+				<div class="alpha--lower">abcdefghijklmnopqrstuvwxyz</div>
+				<div class="alpha--upper">abcdefghijklmnopqrstuvwxyz</div>
+				<div class="numbers">1234567890</div>
+			</section>
+			<section class="type-section--neucha">
+				<section class="explanation">
+					<span class="item-name">
+					Neucha:</span><br>
+					Neucha is only used in print. It is used for writeups and other personalized touches. Neucha must always be on a light background. Use sparingly.
 				</section>
 				<div class="lrg">Aa</div>
 				<div class="alpha--lower">abcdefghijklmnopqrstuvwxyz</div>

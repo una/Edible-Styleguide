@@ -22,6 +22,11 @@
 	@extend %lato-bold;
 }
 
+.type-section--neucha {
+	@extend %type-section;
+	@extend %neucha;
+}
+
 .lrg {
 	font-size: 100px;
 	width: 1.7em;

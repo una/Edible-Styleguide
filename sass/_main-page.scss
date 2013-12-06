@@ -1,5 +1,10 @@
 @import "compass/utilities/color/contrast";
 
+::selection {
+	background: $tangerine;
+	color: white;
+}
+
 #container {
 	margin-left: $nav-width; 
 	max-width: 1080px;
