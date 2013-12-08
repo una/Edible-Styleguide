@@ -16,6 +16,11 @@
 	@extend %fit-bg;
 	@extend %wrong;
 }
+%logo_photo {
+	@extend %block;
+	background-repeat: no-repeat;
+	@extend %correct;	
+}
 
 .logo--full-color {
 	@extend %logo;
@@ -84,4 +89,16 @@
 	@extend .logo_nono--borderradius;
 	height: 190px;
 	background-position: 50%;
+}
+
+.logo_photo--full {
+	@extend %logo_photo;
+	height: 500px;
+	background-image: image-url('photo/photo2.jpg');
+}
+
+.logo_photo--whitebg {
+	@extend %logo_photo;
+	height: 320px;
+	background-image: image-url('photo/photo1.jpg');
 }

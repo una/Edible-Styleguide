@@ -28,3 +28,8 @@ block {
 %push-side {
 	margin-left: $explanation-width;
 }
+
+.clear,
+%clear {
+	clear: both;
+}

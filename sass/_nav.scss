@@ -8,7 +8,14 @@ nav {
 		padding: 0;
 	}
 	.sub-nav {
+		// @include transition-duration;
 		text-indent: 3em;
+		// height: 0;
+		// display: none;
+		&.clicked {
+			height: auto;
+			display: block;
+		} 
 	}
 	a {
 		@include transition-duration;

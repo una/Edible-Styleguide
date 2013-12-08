@@ -18,3 +18,9 @@
 #colors {
 	@extend %block;
 }
+
+.primary-colors .color-box {
+	display: inline-block;
+	padding: 5%;
+	width: percentage(1/6);
+}
