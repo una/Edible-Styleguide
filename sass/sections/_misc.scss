@@ -10,3 +10,29 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+%characters {
+	@extend %push-side;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	padding-bottom: 30%;
+	width: 40%;
+}
+
+.character--jeff1 {
+	@extend %characters;	
+	background-image: image-url('characters/jeff.svg');
+	margin-top: -5%; 
+}
+
+.character--jeff2 {
+	@extend %characters;	
+	background-image: image-url('characters/jeff--flight.svg');
+	float: right;
+	margin-top: -55%;
+}
+
+.character--mark1 {
+	@extend %characters;	
+	background-image: image-url('characters/mark.svg');
+}
