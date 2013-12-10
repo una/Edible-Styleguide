@@ -22,14 +22,14 @@
 .character--jeff1 {
 	@extend %characters;	
 	background-image: image-url('characters/jeff.svg');
-	margin-top: -5%; 
+	margin-top: -3%; 
 }
 
 .character--jeff2 {
 	@extend %characters;	
 	background-image: image-url('characters/jeff--flight.svg');
 	float: right;
-	margin-top: -55%;
+	margin-top: -53%;
 }
 
 .character--mark1 {

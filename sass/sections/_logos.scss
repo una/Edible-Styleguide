@@ -54,10 +54,23 @@
 	width: 45%;
 }
 
-%logo_nono--2up {
-	@extend %logo_nono;
+%twoup {
 	width: 225px;
 	height: 250px;
+}
+
+%twoup-logos {
+	width: 250px;
+	height: 250px;
+	background-size: 100%;
+	background-repeat: no-repeat; 
+	float: left;
+	margin: 10px;
+}
+
+%logo_nono--2up {
+	@extend %logo_nono;
+	@extend %twoup;
 }
 
 .logo_nono--color1 {
@@ -101,4 +114,39 @@
 	@extend %logo_photo;
 	height: 320px;
 	background-image: image-url('photo/photo1.jpg');
+}
+
+.logo--fullcolor {
+	@extend %twoup-logos;
+	background-image: image-url('logos/logo--fullcolor.svg');
+}
+.logo--fullcolor--reversed {
+	@extend %twoup-logos;
+	background-image: image-url('logos/logo--fullcolor--reversed.svg');
+}
+.logo--6color {
+	@extend %twoup-logos;
+	background-image: image-url('logos/logo--6color.svg');
+}
+.logo--6color--reversed {
+	@extend %twoup-logos;
+	background-image: image-url('logos/logo--6color--reversed.svg');
+}
+.logo--2color {
+	@extend %twoup-logos;
+	background-image: image-url('logos/logo--2color.svg');
+}
+.logo--2color--reversed {
+	@extend %twoup-logos;
+	background-image: image-url('logos/logo--2color--reversed.svg');
+}
+.logo--2colorbw {
+	@extend %twoup-logos;
+	@extend %push-side;
+	background-image: image-url('logos/logo--2colorbw.svg');
+}
+.logo--2colorbw--reversed {
+	@extend %twoup-logos;
+	@extend %push-side;
+	background-image: image-url('logos/logo--2colorbw--reversed.svg');
 }

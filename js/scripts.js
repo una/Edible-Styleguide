@@ -1,9 +1,11 @@
 //My Accordion {
-document.ready(function(){
-$('nav ul li').find('.sub-nav').slideUp()
-});
+// document.ready(function(){
+// $('nav ul li').find('.sub-nav').slideUp()
+// });
 
-$('nav ul li').on('click', function(){
+$('.sub-nav').slideUp();
+
+$('nav ul li:not(.sub-nav)').on('click', function(){
 	$('nav ul li').find('.sub-nav').slideUp()
 	$(this).find('.sub-nav').slideDown();
 	});

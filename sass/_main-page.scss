@@ -35,6 +35,10 @@
 	}
 }
 
+a {
+	color: $sea-blue;
+}
+
 .explanation {
 	@extend %left;
 	@extend %lato;
